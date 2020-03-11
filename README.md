@@ -1,24 +1,32 @@
-# README
+#todo-app DB設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##  usersテーブル  
+｜Column｜Type｜Options｜
+|------|----|------|
+|name |string|null: false|
+|e-mail|string|null: false|
+|password-confimation|string|null: false|
 
-Things you may want to cover:
+### Association
+- has_many :lists
 
-* Ruby version
+## listsテーブル
+｜Column｜Type｜Options｜
+|------|----|------|
+|title|string|null: false|
+|user_id|integer|null: false,foreign_key:true|
 
-* System dependencies
+### Association
+- has_many :cards
+- belongs_to :user
 
-* Configuration
 
-* Database creation
+## cardsテーブル
+｜Column｜Type｜Options｜
+|------|----|------|
+|task|string|null: false|
+|content|string|-------|
+|list_id|integer|null: false,foreign_key:true|
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Association
+- belongs_to :list

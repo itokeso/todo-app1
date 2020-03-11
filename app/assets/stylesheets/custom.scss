@@ -1,0 +1,25 @@
+header{
+  height: 100px;
+  background-color: #026aa7;
+  box-shadow: 4px 4px gray;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .title{
+    font-size: 40px;
+  }
+  .text-white a{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  .btn a{
+    color: white;
+  }
+  .btn.btn-danger{
+    margin-right: 20px;
+  }
+    
+}
+
