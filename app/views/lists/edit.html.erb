@@ -1,0 +1,9 @@
+<div class="contents row">
+  <div class="container">
+    <%= form_with model: @list, local: true do |f| %>
+      <%= f.label :title %>
+      <%= f.text_field :title, autofocus: true, class: "form-control listName", placeholder: "リスト名" %>
+      <div class="text-center"><%= f.submit "更新する", class: "submitBtn" %></div>
+    <% end %>
+  </div>
+</div>

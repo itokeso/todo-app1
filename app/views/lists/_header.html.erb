@@ -1,9 +1,9 @@
  <header>
-    <div class="name">itoさん</div>
-    <div class="text-white display-4 border"><%= link_to "TODO-APP","#"%></div>
+    <div class="name"><%= current_user.name%>さん！</div>
+    <h2 class="text-white display-6 border"><%= link_to "TODO-APP",root_path%></h1>
     <div class="btn-group">
       
-     <button type="button" class="btn btn-success" ><%= link_to "リストを作成","#"%></li></button>
+     <button type="button" class="btn btn-success" ><%= link_to "リストを作成",new_list_path%></li></button>
      <button type="button" class="btn btn-danger"><%= link_to "サインアウト",destroy_user_session_path ,method: :delete %></li> </button>  
     </div>
-   </header>
+</header>
