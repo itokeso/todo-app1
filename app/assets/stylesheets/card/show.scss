@@ -1,0 +1,33 @@
+.card_detail{
+  text-align: center;
+  max-width: 600px;
+  margin: 60px auto ;
+  .card_title{
+    border-bottom:1px solid #ccc;
+    text-align: left;
+    .card_task{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .card_memo{
+    border-bottom:1px solid #ccc;
+    text-align: left;
+    &_detail{
+      font-size: 20px;
+      font-weight: bold;
+      }
+    }
+  .list_name{
+    border-bottom:1px solid #ccc;
+    text-align: left;
+    &_detail{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .btn{
+    display: block;
+    margin-top: 30px;
+  }
+}

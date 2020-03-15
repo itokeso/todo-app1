@@ -1,7 +1,11 @@
 
+* {
+  box-sizing: border-box;
+}
+
 header{
   height: 100px;
-  background-color: #026aa7;
+  background-color: #ebc51f;
   box-shadow: 4px 4px gray;
   color: white;
   display: flex;
@@ -12,6 +16,7 @@ header{
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-size: 45px;
   }
   .btn a{
     color: white;
@@ -22,4 +27,55 @@ header{
     
 }
 
+.top_page{
+  padding-top: 30px;
+  background-color:#bababa;
+  height: 100vh;
+  overflow: scroll;
+  .list_wrapper{
+    display: flex;
+    height: 100%;
+    align-items: baseline;
+    .list{
+      position: relative;
+      background-color: #e2e4e6;
+      padding: 10px;
+      margin-left: 20px;
+      min-width: 270px;
+      &_header{
+        display: flex;
+        position: relative;
+        &_title{
+          font-size: 20px;
+          align-items: center;
+        }
+        .fas.fa-pen{
+          color: gray;
+          position: absolute;
+          right: 50px;
+          top: 5px;
+        }
+        .fas.fa-trash{
+          color: gray;
+          position: absolute;
+          right: 20px;
+          top: 5px;
+        }
+        
+      }
+      .card_title{
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.7;
+        .fas.fa-info-circle{
+          color:gray;
+          text-align: right;
+      }
+    }
+      .card_add a{
+        color: rgb(100, 94, 94);
+      }
+    }
 
+  }
+}

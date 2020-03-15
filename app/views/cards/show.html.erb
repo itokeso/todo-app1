@@ -1,0 +1,13 @@
+<div class="card_detail mt-5">
+  <div class="card_title">タイトル
+    <div class="card_task mt-1"><%= @card.title%></div>
+  </div>
+  <div class="card_memo mt-3">メモ
+    <div class="card_memo_detail mt-1"><%= @card.memo%></div>
+  </div>
+  <div class="list_name mt-3">リスト名
+    <div class="list_name_detail mt-1"><%= @card.list.title%></div>
+  </div>
+  <%= link_to '編集する', edit_list_card_path(@card.list, @card),class:"btn btn-outline-primary btn-sm"%>
+  <%= link_to '削除する', list_card_path(@card.list, @card),class:"btn btn-outline-danger btn-sm",method: :delete, data:{confirm: "削除しても大丈夫ですか？"}%>
+</div>

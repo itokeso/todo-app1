@@ -1,10 +1,13 @@
 <div class="cardnewPgae">
   <div class='container'>
-    <%= form_with model: @list, url: { action: :update }, html: { class: 'cardnewForm' }, local: true do |f| %>
+    <%= form_with model: @card, url: { action: :update }, html: { class: 'cardnewForm' }, local: true do |f| %>
       <div class="cardnewForm_title mb-5">
         <%= f.label :title %>
         <%= f.text_field :title, autofocus: true, class: "form-control", placeholder: "カード名" %>
       </div>
+      <div class="cardnewForm_memo">
+        <%= f.label :memo %>
+        <%= f.text_area :memo, autofocus: true, class: "form-control", placeholder: "詳細" %>
       <div class="text-center"><%= f.submit "更新する", class: "submitBtn " %></div>
       </div>
     <% end %>
