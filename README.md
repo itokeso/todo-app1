@@ -17,8 +17,8 @@
 
 ##  usersテーブル  
 
-| Colimn | Type | Options |<br>　
-| ------ | ---- | ------ |<br>
+|Column|Type|Options|
+|------|----|-------|
 | name | string | null: false |<br>　　
 | e-mail | string | null: false |<br>
 | password-confimation | string | null: false |<br>
@@ -27,8 +27,8 @@
 - has_many :lists
 
 ## listsテーブル
-｜Column｜Type｜Options｜<br>
-|------|----|------|<br>
+|Column|Type|Options|
+|------|----|-------|
 |title|string|null: false|<br>
 |user_id|integer|null: false,foreign_key:true|<br>
 
@@ -47,17 +47,4 @@
 ### Association
 - belongs_to :list
 
-|Column|Type|Options|
-|------|----|-------|
-|nickname|string|null: false|
-|email|string|null: false|
-|password|string|null: false|
-|password_confirmation|string|null: false|
-|last_name|string|null: false|
-|first_name|string|null: false|
-|last_name_kana|string|null: false|
-|first_name_kana|string|null: false|
-|birth_year|string|null: false|
-|birth_month|string|null: false|
-|birth_day|string|null: false|
-|phone_number|integer||
+
