@@ -38,8 +38,8 @@
 
 
 ## cardsテーブル
-｜Column｜Type｜Options｜<br>
-|------|----|------|<br>
+|Column|Type|Options|
+|------|----|-------|
 |task|string|null: false|<br>
 |content|string|-------|<br>
 |list_id|integer|null: false,foreign_key:true|<br>
