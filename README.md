@@ -15,9 +15,9 @@
 |種別|名称|
 |------|----|
 |開発言語|Ruby(ver 2.5.1)|
-|フレームワーク|Ruby on Rails(ver 5.2.4.1) ,Bootstrap|
+|フレームワーク|Ruby on Rails(ver 5.2.4.1) ,Bootstrap(ver 4.3.1)|
 |マークアップ|HTML,CSS(Sass)|
-|フロントエンド|JavaScript(jQuery)|
+|データベース|MYSQL|
 #todo-app DB設計
 
 ##  usersテーブル  
