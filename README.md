@@ -12,7 +12,12 @@
 ・リスト・カード削除機能<br>
 
 ##使用技術一覧
-・
+|種別|名称|
+|------|----|
+|開発言語|Ruby(ver 2.5.1)|
+|フレームワーク|Ruby on Rails(ver 5.2.4.1) ,Bootstrap|
+|マークアップ|HTML,CSS(Sass)|
+|フロントエンド|JavaScript(jQuery)|
 #todo-app DB設計
 
 ##  usersテーブル  
