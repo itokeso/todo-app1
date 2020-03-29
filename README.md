@@ -19,9 +19,9 @@
 
 | Colimn | Type | Options |<br>　
 | ------ | ---- | ------ |<br>
-|name |string|null: false|<br>　　
-|e-mail|string|null: false|<br>
-|password-confimation|string|null: false|<br>
+| name | string | null: false |<br>　　
+| e-mail | string | null: false |<br>
+| password-confimation | string | null: false |<br>
 
 ### Association
 - has_many :lists
