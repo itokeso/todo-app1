@@ -17,7 +17,8 @@
 
 ##  usersテーブル  
 
-|Colimn|Type|Options|<br>　　
+|Colimn|Type|Options|<br>　
+
 |------|----|------|<br>
 |name |string|null: false|<br>　　
 |e-mail|string|null: false|<br>
