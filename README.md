@@ -18,6 +18,11 @@
 |フレームワーク|Ruby on Rails(ver 5.2.4.1) ,Bootstrap(ver 4.3.1)|
 |マークアップ|HTML,CSS(Sass)|
 |データベース|MYSQL|
+
+![スクリーンショット 2020-03-29 22 58 41](https://user-images.githubusercontent.com/61177741/77851048-8fc0a900-7211-11ea-839a-d01b4357e675.png)
+![スクリーンショット 2020-03-29 22 59 44](https://user-images.githubusercontent.com/61177741/77851051-93543000-7211-11ea-9b6f-dff586f8612b.png)
+![スクリーンショット 2020-03-29 22 59 17](https://user-images.githubusercontent.com/61177741/77851054-95b68a00-7211-11ea-9b96-d8af478d1823.png)
+
 #todo-app DB設計
 
 ##  usersテーブル  
