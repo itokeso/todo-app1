@@ -23,10 +23,10 @@
 ![スクリーンショット 2020-03-29 22 59 44](https://user-images.githubusercontent.com/61177741/77851051-93543000-7211-11ea-9b6f-dff586f8612b.png)
 ![スクリーンショット 2020-03-29 22 59 17](https://user-images.githubusercontent.com/61177741/77851054-95b68a00-7211-11ea-9b96-d8af478d1823.png)
 
-https://gyazo.com/e2b0d98ee2837452bde5c030884fdb4b
-https://gyazo.com/34c0bed19ea5c85d780720dad1c17389
-https://gyazo.com/1831c29f684c9325712f87790caf1e39
-https://gyazo.com/f205e0ee18c3a8d8f09c1ddab7495686
+https://gyazo.com/e2b0d98ee2837452bde5c030884fdb4b<br>
+https://gyazo.com/34c0bed19ea5c85d780720dad1c17389<br>
+https://gyazo.com/1831c29f684c9325712f87790caf1e39<br>
+https://gyazo.com/f205e0ee18c3a8d8f09c1ddab7495686<br>
 
 #todo-app DB設計
 
