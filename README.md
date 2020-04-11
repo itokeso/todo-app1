@@ -34,10 +34,10 @@
 |本番環境|AWS|
 
 ## 本番環境
-.http://54.92.67.93/
+. http://54.92.67.93/
 
-.ID: admin<br>
-.PASS: 0000
+. ID: admin<br>
+. PASS: 0000
 
 ![スクリーンショット 2020-03-29 22 58 41](https://user-images.githubusercontent.com/61177741/77851048-8fc0a900-7211-11ea-839a-d01b4357e675.png)
 ![スクリーンショット 2020-03-29 22 59 44](https://user-images.githubusercontent.com/61177741/77851051-93543000-7211-11ea-9b6f-dff586f8612b.png)
