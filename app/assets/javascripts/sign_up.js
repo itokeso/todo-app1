@@ -42,4 +42,3 @@ $("#pass2").on('blur', function(){
   }
   })
 });
-
