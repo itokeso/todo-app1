@@ -105,7 +105,7 @@ ja:
           attributes:
             email:
               blank: "が空になっています"
-            password:
-              blank: "が空になっています"
             name:
+              blank: "が空になっています"
+            password:
               blank: "が空になっています"
