@@ -97,15 +97,15 @@ ja:
         one: "エラーが発生したため %{resource} は保存されませんでした:"
         other: "%{count} 件のエラーが発生したため 登録 は保存されませんでした"
 
-ja:
-  activerecord:
-    errors:
-      models:
-        user:
-          attributes:
-            email:
-              blank: "が空になっています"
-            name:
-              blank: "が空になっています"
-            password:
-              blank: "が空になっています"
+# ja:
+#   activerecord:
+#     errors:
+#       models:
+#         user:
+#           attributes:
+#             email:
+#               blank: "が空になっています"
+#             name:
+#               blank: "が空になっています"
+#             password:
+#               blank: "が空になっています"
