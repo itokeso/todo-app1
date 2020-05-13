@@ -104,4 +104,6 @@ ja:
         user:
           attributes:
             email:
+            password:
+            name:
               blank: "が空になっています"
