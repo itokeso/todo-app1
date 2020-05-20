@@ -39,6 +39,9 @@ $("#pass2").on('blur', function(){
   if(!$(this).val().match(/^[a-z\d]{6,100}$/i) && !$(this).val().length == 0) {
   $(this).siblings('span.error_pass2').text("※正しく入力して下さい");
   // $(this).removeClass("errored");
+  } else {
+    $(this).siblings("span.error_pass2").text("");
   }
+  
   })
 });
