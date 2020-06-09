@@ -46,6 +46,7 @@
 
 # DEMO
 ![](https://raw.github.com/wiki/itokeso/todo-app1/gif/image1.gif)
+![](https://raw.github.com/wiki/itokeso/todo-app1/gif/image2.gif)
 
 
 
