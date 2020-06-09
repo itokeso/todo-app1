@@ -45,7 +45,7 @@
 ![スクリーンショット 2020-03-29 22 59 17](https://user-images.githubusercontent.com/61177741/77851054-95b68a00-7211-11ea-9b96-d8af478d1823.png)
 
 # DEMO
-![demo](https://raw.github.com/wiki/itokeso/todo-app1/gif/image.gif)
+![](https://raw.github.com/wiki/itokeso/todo-app1/gif/image1.gif)
 
 
 
